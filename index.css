@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.create{
+    background:linear-gradient(to right,#b5651d,#F7DEB7 70%) ;
+}
+.image{
+    display:flex;
+    margin-right:10%;
+    
+}
+.image img{
+    margin:14% 3%;
+    margin-right: 8%;    
+
+}
+.logo{
+    margin:2% 5%;
+    border-radius: 50%;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border:5px solid black;
+    border-radius: 20px;
+}
+.navbar ul li{
+    display:inline-block;
+    margin:20px 50px;
+    padding:20px 30px;
+}
+.navbar ul li a{
+    font-size: larger;
+    padding: 6px;
+    text-decoration: none;
+    color:black;
+
+}
+.intro{
+    /* margin:20% 30%; */
+    margin-top: 24%;
+    margin-left: 20%;
+    line-height: 30px;
+     
+}
+b{
+    font-family:  'Caprasimo', cursive;;
+    color:white;
+}
+#name{
+    word-spacing: 10px;
+}
+#info{
+    margin:2% 5%;
+    border-bottom: 5px solid ;
+    
+}
+#info-img{
+      float:right;
+      margin:40px;
+      border-radius:30px;
+
+}
+.intro2{
+    font-size: 20px;
+    width:700px;
+    margin:9% 10%
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid red;
+    transition: .2s;
+    
+}
+i{
+    font-size: large;
+    font-weight:bolder;
+}
+#skill{
+    padding:50px;
+}
+li{
+    font-size: 20px;
+    font-weight: 400;
+}
+.project{
+    margin: 20px 30px ;
+}
